@@ -1,0 +1,93 @@
+/* =============================================
+   responsive.css — Mobile & tablet breakpoints
+   ============================================= */
+
+@media (max-width: 900px) {
+
+  /* Nav */
+  nav {
+    padding: 1rem 1.5rem;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  /* Glow divider */
+  .glow-divider {
+    margin: 0 1.5rem;
+  }
+
+  /* Hero */
+  #hero {
+    padding: 0 1.5rem;
+  }
+
+  .hero-stats {
+    right: 1.5rem;
+  }
+
+  .hero-scroll {
+    left: 1.5rem;
+  }
+
+  /* About */
+  #about {
+    grid-template-columns: 1fr;
+    padding: 5rem 1.5rem;
+    gap: 3rem;
+  }
+
+  .about-visual {
+    margin: 2rem auto 0;
+    order: -1;
+  }
+
+  /* Skills */
+  #skills {
+    padding: 5rem 1.5rem;
+  }
+
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Projects */
+  #projects {
+    padding: 5rem 1.5rem;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Experience */
+  #experience {
+    padding: 5rem 1.5rem;
+  }
+
+  /* Contact */
+  #contact {
+    padding: 5rem 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-name {
+    font-size: 2.4rem;
+  }
+
+  .hero-stats {
+    display: none; /* too cramped on very small screens */
+  }
+
+  .about-avatar-ring {
+    width: 260px;
+    height: 260px;
+  }
+
+  .contact-email {
+    font-size: 0.85rem;
+    padding: 0.8rem 1.2rem;
+  }
+}
